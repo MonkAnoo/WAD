@@ -10,23 +10,26 @@
   <body>
     <table>
       <tbody>
-        <tr>
-          <td><h4>Enter the Name</h4></td>
-          <td><input type="text" id="name" onchange="checkName();" /></td>
-        </tr>
-        <tr>
-          <td><h4>Enter the Roll Number</h4></td>
-          <td><input type="text" id="rNumber" onchange="rollNumberCheck();" /></td>
-        </tr>
-        <tr>
-          <td><h4>Enter the Mobile Number</h4></td>
-          <td><input type="text" id="name" /></td>
-        </tr>
-        <tr>
-          <td><h4>Gender</h4></td>
-          <td><input type="radio" name="Gender" id="male" value ="m"> Male <input type="radio" name="Gender" id="female" value ="f">  Female  </td>
-        </tr>
-      </tbody>
-    </table>
+        <form action="#">
+          <tr>
+            <td><h4>Enter the Name</h4></td>
+            <td><input type="text" id="name" onchange="checkName();" /></td>
+          </tr>
+          <tr>
+            <td><h4>Enter the Roll Number</h4></td>
+            <td><input type="text" id="rNumber" required /></td>
+          </tr>
+          <tr>
+            <td><h4>Enter the Mobile Number</h4></td>
+            <td><input type="text" id="Mobile" onchange="mobile();" /></td>
+          </tr>
+          <tr>
+            <td><h4>Mail id</h4></td>
+            <td><input type="email" name="email" id="mail" onchange="email();">   </td>
+          </tr>
+        </tbody>
+      </table>
+      <input type="submit" onclick="done();">
+        </form>
   </body>
 </html>
