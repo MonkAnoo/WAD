@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Quiz app</title>
+</head>
+<body onload="qdivHide();">
+    <h2>QuizTime</h2>
+    <div id="getUser">
+        <center><h3>Register    </h3></center>
+        <h2>Enter the Name</h2>
+        <input type="text" placeholder="Your Name" id="userName"> <br> <br>
+        <input type="submit" onclick="hide(); sendValue();">
+    </div>
+
+    <br> <br>
+    <div id="questions">
+        <h2>Q 1 - What is output of −</h2>
+        <code> 
+            33 == 33.0
+        </code> 
+        <br> <br>
+        <input type="radio" id="false" name="q1" value="false">
+        <label>False</label><br>
+        
+        <input type="radio" id="True" name="q1" value="True">
+        <label>True-</label><br>
+        
+        <input type="radio" id="33" name="q1" value="33">
+        <label >33</label>
+        <hr>
+
+        <h2>Q 2 - What is output of −</h2>
+        <code> 
+            a = (1, 2)  <br>
+            a[0] +=1
+        </code> 
+        <br> <br>
+        <input type="radio" id="typeError" name="q2" value="typeError">
+        <label>typeError-</label><br>
+        
+        <input type="radio" id="2" name="q2" value="2">
+        <label>2</label><br>
+        
+        <input type="radio" id="112" name="q2" value="112">
+        <label >112</label>
+        <hr>
+
+        <input type="submit" onclick="validation();">
+        
+    </div>
+    <div id="score">
+        <h3>Total questions : 5</h3>
+        <p id="ans1"></p>
+        <p id="ans2"></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body
+{
+    font-family: calibri;
+}
+#getUser
+{
+    background-color: antiquewhite;
+    padding: 10px;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+    border-radius: 20px;
+}
+
+code
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+label
+{
+    font-size: 20px;
+}
