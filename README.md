@@ -1,4 +1,4 @@
-# WAD To Do List
+# WAD Status
     $ 1 & 2 program not completed.
     $ Program 3 completed.
     $ Program 4 completed.
