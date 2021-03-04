@@ -5,4 +5,5 @@
 - [ ] Program 6 started.
     **Add 3 more questions in html and add 3 more if else in app.js**
 - [x] Program 7 completed.
+- [x] Program 8 completed.
 
