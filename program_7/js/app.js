@@ -22,8 +22,8 @@ function cal()
         if(quantity[i]>=100)
         {
             count++;
-            let discount =(10/100)*price[i];
-            total =total + price[i] - discount;
+            let discount = (price[i] * 10) / 100;  // 299
+            total = (price[i] - discount) * quantity[i]; // 2999 - 299
         }
         else
         {
